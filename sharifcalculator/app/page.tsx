@@ -22,9 +22,16 @@ export default function Calculator() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen  bg-linear-to-br from-gray-100 to-gray-300">
+    <div
+      className="flex items-center justify-center min-h-screen 
+     bg-linear-to-br from-gray-100 to-gray-300"
+    >
       <div className="bg-white shadow-xl rounded-2xl p-6 w-80">
-        <div className="text-right mb-4 bg-gray-50 p-3 rounded text-2xl font-mono border border-gray-200  min-h-12">
+        <h1> Sharif Calculator</h1>
+        <div
+          className="text-right mb-4 bg-gray-50 p-3 rounded
+         text-2xl font-mono border border-gray-200  min-h-12"
+        >
           {input || "0"}
         </div>
 
@@ -66,7 +73,8 @@ export default function Calculator() {
 
           <button
             onClick={handleClear}
-            className="col-span-4 p-3 rounded bg-red-500 text-white font-semibold hover:bg-red-600"
+            className="col-span-4 p-3 rounded bg-red-500 text-white
+             font-semibold hover:bg-red-600"
           >
             C
           </button>
