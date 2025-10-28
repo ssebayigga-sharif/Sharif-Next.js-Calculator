@@ -28,11 +28,11 @@ yarn dev
 
 Then open http://localhost:3000 in your browser by pressing ctrl or cmd + click 
 
-Usage
+4 Usage
 simply enter numbers and carry out the operations
 and the result updates automatically when you click =
 e.g 12 + 7 = 19.
 
-Inspiration
+5 Inspiration
 
 Built as a small project to practice Next.js fundamentals like routing, component structure while keeping thimgs functioning and clean
